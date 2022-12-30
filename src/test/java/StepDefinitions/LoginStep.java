@@ -18,8 +18,8 @@ public class LoginStep {
 
     @When("Enter username and password click login button")
     public void enterUsernameAndPasswordClickLoginButton() {
-        dc.findAndSend("username", "turkeyts");
-        dc.findAndSend("password", "TechnoStudy123");
+        dc.findAndSend("username", "    ");                  // write username here
+        dc.findAndSend("password", "     ");                 // write password here 
         dc.findAndClick("loginButton");
         dc.findAndClick("acceptCookies");
     }
